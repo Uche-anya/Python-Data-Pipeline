@@ -5,9 +5,9 @@ This project is an ETL (Extract, Transform, Load) pipeline designed to transfer 
 
 1. Clone the repository to your local machine:
    ```
-   git clone <repository_url>
+   git clone https://github.com/Uche-anya/Python-Data-Pipeline.git
    ```
-   Replace `<repository_url>` with the URL of your GitHub repository.
+   Replace `https://github.com/Uche-anya/Python-Data-Pipeline.git` with the URL of your GitHub repository.
 
 2. Install the required dependencies using pip:
    ```
@@ -20,9 +20,9 @@ This project is an ETL (Extract, Transform, Load) pipeline designed to transfer 
 
 2. Modify the `config.py` file with the database connection details for both MySQL and PostgreSQL.
 
-3. Run the `main.py` script to execute the ETL process:
+3. Run the `app.py` script to execute the ETL process:
    ```
-   python main.py
+   python app.py
    ```
 
 4. Monitor the progress and check the `etl.log` file for any errors or informational messages.
